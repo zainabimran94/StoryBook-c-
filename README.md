@@ -29,6 +29,11 @@ To run this project locally, ensure you have the following tools installed:
 3. Navigate into the project directory:
    cd StoryBook
 
+### Installing Dependencies
+Run the following command to restore all necessary NuGet packages:
+  ```bash
+  dotnet restore
+
 ### DataBase Setup
 This project uses PostgreSQL with Entity Framework Core. To set up the database:
  1. Create a PostgreSQL database locally or on your server.
